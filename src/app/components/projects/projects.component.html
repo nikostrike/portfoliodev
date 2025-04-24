@@ -1,7 +1,6 @@
 <h1 class="text-3xl font-bold flex items-center gap-x-3 pb-8 pt-14">
-    <app-work-icon class="opacity-60"
-    ></app-work-icon>
-    Proyectos
+  <app-work-icon class="opacity-60"></app-work-icon>
+  Proyectos
 </h1>
 
 <ol class="relative border-s border-gray-200 dark:border-gray-700">
@@ -39,13 +38,23 @@
       historial. Integración con .NET, SQL Server. Enfoque en UI responsiva y
       experiencia de usuario.
     </p>
-    <a
-      href="https://github.com/nikostrike/Portafolio"
-      class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-    >
-      <app-terminal-icon></app-terminal-icon>
-      Repositorio</a
-    >
+    <div class="flex gap-2">
+      <a
+        href="https://github.com/nikostrike/Portafolio"
+        class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+      >
+        <app-terminal-icon></app-terminal-icon>
+        Repositorio
+      </a>
+      <button
+        class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        data-modal-target="project-gallery-modal"
+        data-modal-toggle="project-gallery-modal"
+      >
+        <app-photo-icon></app-photo-icon>
+        Galería
+      </button>
+    </div>
   </li>
   <li class="mb-10 ms-6">
     <span
@@ -63,7 +72,9 @@
         />
       </svg>
     </span>
-    <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-indigo-200 opacity-90">
+    <h3
+      class="mb-1 text-lg font-semibold text-gray-900 dark:text-indigo-200 opacity-90"
+    >
       Sistema de Reservas Hoteleras
     </h3>
     <time
@@ -75,13 +86,23 @@
       reservas. Modelado de base de datos, documentación completa y trabajo
       colaborativo con GitHub.
     </p>
-    <a
-      href="https://github.com/nikostrike/ReservasHoteleras"
-      class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-    >
-      <app-terminal-icon></app-terminal-icon>
-      Repositorio</a
-    >
+    <div class="flex gap-2">
+      <a
+        href="https://github.com/nikostrike/ReservasHoteleras"
+        class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+      >
+        <app-terminal-icon></app-terminal-icon>
+        Repositorio
+      </a>
+      <button
+        class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        data-modal-target="project-gallery-modal"
+        data-modal-toggle="project-gallery-modal"
+      >
+        <app-photo-icon></app-photo-icon>
+        Galería
+      </button>
+    </div>
   </li>
   <li class="ms-6">
     <span
@@ -99,7 +120,9 @@
         />
       </svg>
     </span>
-    <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-indigo-200 opacity-90">
+    <h3
+      class="mb-1 text-lg font-semibold text-gray-900 dark:text-indigo-200 opacity-90"
+    >
       GameStore - App de tienda virtual
     </h3>
     <time
@@ -111,12 +134,134 @@
       carrito de compras y detalle de productos. Consumo de APIs REST y
       persistencia local. Diseño adaptado a móvil y web.
     </p>
-    <a
-      href="https://github.com/nikostrike/GameStore"
-      class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-    >
-      <app-terminal-icon></app-terminal-icon>
-      Repositorio</a
-    >
+    <div class="flex gap-2">
+      <a
+        href="https://github.com/nikostrike/GameStore"
+        class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+      >
+        <app-terminal-icon></app-terminal-icon>
+        Repositorio
+      </a>
+      <button
+        class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-indigo-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        data-modal-target="project-gallery-modal"
+        data-modal-toggle="project-gallery-modal"
+      >
+        <app-photo-icon></app-photo-icon>
+        Galería
+      </button>
+    </div>
   </li>
 </ol>
+
+<!-- Modal -->
+<div
+  id="project-gallery-modal"
+  tabindex="-1"
+  aria-hidden="true"
+  class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+>
+  <div class="relative w-full max-w-2xl max-h-full">
+    <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+      <div
+        class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+      >
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+          Galería de Proyecto
+        </h3>
+        <button
+          type="button"
+          class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+          data-modal-hide="project-gallery-modal"
+        >
+          <svg
+            aria-hidden="true"
+            class="w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <span class="sr-only">Close modal</span>
+        </button>
+      </div>
+      <div class="p-6 space-y-6">
+        <div id="carousel" class="relative" data-carousel="static">
+          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/assets/m1.png"
+                alt="Project Image 1"
+                class="absolute block w-full h-full object-cover"
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/assets/m2.png"
+                alt="Project Image 2"
+                class="absolute block w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          <button
+            type="button"
+            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev
+          >
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-6 h-6 text-white dark:text-gray-800"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 19l-7-7 7-7"
+                ></path>
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next
+          >
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-6 h-6 text-white"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,7 +1,16 @@
 <main>
-  <section class="py-30">
-    <h1 class="text-5xl font-bold flex items-center gap-x-4 pb-5">
-      Hola, soy Nico!
+  <section class="py-30 pt-40">
+    <h1 class="text-5xl font-bold flex flex-col items-start justify-start gap-x-4 pb-5">
+      <span class="flex" aria-label="Animated Greeting">
+        <span
+          *ngFor="let char of greetingLetters; let i = index"
+          class="inline-block animate-bounce"
+          [ngStyle]="{ 'animation-delay': i * 100 + 'ms' }"
+        >
+          {{ char }}
+        </span>,
+      </span>
+      <span class="flex gap-x-6">soy Nico!
       <a
         href="https://linkedin.com/in/nicolasmatiasgs"
         target="_blank"
@@ -9,17 +18,17 @@
         class="flex items-center"
       >
         <app-badge class="-mt-4"></app-badge>
-      </a>
+      </a></span>
     </h1>
-    <h2 class="text-2xl text-wrap pb-6 opacity-80">
-      <span class="text-yellow-100">Desarrollador Full Stack</span> con
+    <h2 class="text-2xl pb-6 opacity-80">
+      <span class="text-yellow-200">Desarrollador Full Stack</span> con
       experiencia práctica en
-      <span class="text-violet-200">proyectos web y móviles</span> usando
-      <span class="text-violet-200">
+      <span class="text-violet-300">proyectos web y móviles</span> usando
+      <span class="text-violet-300">
         Angular, .NET, SQL Server, Django e Ionic</span
       >. Me gusta crear soluciones funcionales, escalables y enfocadas en el
       usuario,
-      <span class="text-yellow-100"
+      <span class="text-yellow-200"
         >integrando frontend, backend y base de datos</span
       >
       con buenas prácticas de desarrollo. Disfruto trabajar en equipo, aprender
@@ -27,7 +36,7 @@
     </h2>
 
     <ul>
-      <nav class="flex gap-x-3">
+      <nav class="flex gap-x-6">
         <a
           class="hover:scale-110 hover:bg-white/20 transition bg-white/10 rounded-full border border-white/10 flex justify-center items-center gap-x-2 py-2 px-2"
           href="https://linkedin.com/in/nicolasmatiasgs"

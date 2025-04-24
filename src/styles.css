@@ -1,8 +1,5 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
-@plugin "flowbite/plugin";
-@source "../node_modules/flowbite";
-
 
 :root {
     color-scheme: light dark;
@@ -10,4 +7,5 @@
 
 html {
     font-family: 'Onest Variable', sans-serif;
+    scroll-behavior: smooth;
 }
